@@ -44,6 +44,7 @@
       <body>&lt;&lt;entity>>&#xD;
 </body>
     </ownedComment>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_ial4AFqVEeWPE907oEzkyg" name=""/>
     <lifeline xmi:type="uml:Lifeline" xmi:id="_ATX8EFqKEeWPE907oEzkyg" name=":User" coveredBy="_h18T0FqKEeWPE907oEzkyg"/>
     <lifeline xmi:type="uml:Lifeline" xmi:id="_AnQhYFqKEeWPE907oEzkyg" name=":WeatherologyMainPage" coveredBy="_h1864FqKEeWPE907oEzkyg _Qj0H4FqOEeWPE907oEzkyg _Qjzg0FqOEeWPE907oEzkyg _gkUsMFqQEeWPE907oEzkyg _9vKOsFqQEeWPE907oEzkyg"/>
     <lifeline xmi:type="uml:Lifeline" xmi:id="_BKKaIFqKEeWPE907oEzkyg" name=":Weather" coveredBy="_lGx1oFqOEeWPE907oEzkyg _3FHqgFqOEeWPE907oEzkyg _31wdQFqOEeWPE907oEzkyg _4pfAQFqOEeWPE907oEzkyg _NGyK4FqPEeWPE907oEzkyg _W0EIgFqPEeWPE907oEzkyg _iTy7MFqPEeWPE907oEzkyg _rQrWoFqPEeWPE907oEzkyg _y9q3gFqPEeWPE907oEzkyg _-u5p4FqPEeWPE907oEzkyg _Bf8OIFqQEeWPE907oEzkyg _i0v2sFqQEeWPE907oEzkyg _8KjBUFqQEeWPE907oEzkyg"/>

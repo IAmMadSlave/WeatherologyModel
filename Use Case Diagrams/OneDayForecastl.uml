@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_VQj0wFqXEeWPE907oEzkyg" name="RootElement">
+  <packagedElement xmi:type="uml:Actor" xmi:id="_l3pi0FqXEeWPE907oEzkyg" name="User"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_l3pi0VqXEeWPE907oEzkyg" name="UnregisteredUser">
+    <generalization xmi:type="uml:Generalization" xmi:id="_l3pi0lqXEeWPE907oEzkyg" general="_l3pi0FqXEeWPE907oEzkyg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_l3pi01qXEeWPE907oEzkyg" name="RegisteredUser">
+    <generalization xmi:type="uml:Generalization" xmi:id="_l3pi1FqXEeWPE907oEzkyg" general="_l3pi0FqXEeWPE907oEzkyg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_l3qJ4FqXEeWPE907oEzkyg" name="Forecast">
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_l3qJ4VqXEeWPE907oEzkyg" name="OneDayForecast">
+      <extend xmi:type="uml:Extend" xmi:id="_l3qJ4lqXEeWPE907oEzkyg" extendedCase="_l3qJ5lqXEeWPE907oEzkyg" extensionLocation="_l3qJ51qXEeWPE907oEzkyg"/>
+      <include xmi:type="uml:Include" xmi:id="_l3qJ41qXEeWPE907oEzkyg" addition="_l3qJ5FqXEeWPE907oEzkyg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_l3qJ5FqXEeWPE907oEzkyg" name="FiveDayForecast">
+      <extend xmi:type="uml:Extend" xmi:id="_l3qJ5VqXEeWPE907oEzkyg" extendedCase="_l3qJ6VqXEeWPE907oEzkyg" extensionLocation="_l3qJ6lqXEeWPE907oEzkyg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_l3qJ5lqXEeWPE907oEzkyg" name="OneDayForecastSpecificProvider">
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_l3qJ51qXEeWPE907oEzkyg" name="ExtensionPoint1"/>
+      <include xmi:type="uml:Include" xmi:id="_l3qJ6FqXEeWPE907oEzkyg" addition="_l3qJ6VqXEeWPE907oEzkyg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_l3qJ6VqXEeWPE907oEzkyg" name="FiveDayForecastSpecificProvider">
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_l3qJ6lqXEeWPE907oEzkyg" name="ExtensionPoint1"/>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_l3qJ61qXEeWPE907oEzkyg" memberEnd="_l3qJ7lqXEeWPE907oEzkyg _l3qJ71qXEeWPE907oEzkyg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_l3qJ7FqXEeWPE907oEzkyg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_l3qJ7VqXEeWPE907oEzkyg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_l3qJ7lqXEeWPE907oEzkyg" name="onedayforecast" type="_l3qJ4VqXEeWPE907oEzkyg" association="_l3qJ61qXEeWPE907oEzkyg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_l3qJ71qXEeWPE907oEzkyg" name="user" type="_l3pi0FqXEeWPE907oEzkyg" association="_l3qJ61qXEeWPE907oEzkyg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_l3qJ8FqXEeWPE907oEzkyg" memberEnd="_l3qJ81qXEeWPE907oEzkyg _l3qJ9FqXEeWPE907oEzkyg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_l3qJ8VqXEeWPE907oEzkyg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_l3qJ8lqXEeWPE907oEzkyg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_l3qJ81qXEeWPE907oEzkyg" name="onedayforecastspecificprovider" type="_l3qJ5lqXEeWPE907oEzkyg" association="_l3qJ8FqXEeWPE907oEzkyg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_l3qJ9FqXEeWPE907oEzkyg" name="user" type="_l3pi0FqXEeWPE907oEzkyg" association="_l3qJ8FqXEeWPE907oEzkyg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_l3qw8FqXEeWPE907oEzkyg" memberEnd="_l3qw81qXEeWPE907oEzkyg _l3qw9FqXEeWPE907oEzkyg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_l3qw8VqXEeWPE907oEzkyg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_l3qw8lqXEeWPE907oEzkyg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_l3qw81qXEeWPE907oEzkyg" name="fivedayforecast" type="_l3qJ5FqXEeWPE907oEzkyg" association="_l3qw8FqXEeWPE907oEzkyg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_l3qw9FqXEeWPE907oEzkyg" name="user" type="_l3pi0FqXEeWPE907oEzkyg" association="_l3qw8FqXEeWPE907oEzkyg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_l3qw9VqXEeWPE907oEzkyg" memberEnd="_l3qw-FqXEeWPE907oEzkyg _l3qw-VqXEeWPE907oEzkyg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_l3qw9lqXEeWPE907oEzkyg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_l3qw91qXEeWPE907oEzkyg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_l3qw-FqXEeWPE907oEzkyg" name="fivedayforecastspecificprovider" type="_l3qJ6VqXEeWPE907oEzkyg" association="_l3qw9VqXEeWPE907oEzkyg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_l3qw-VqXEeWPE907oEzkyg" name="user" type="_l3pi0FqXEeWPE907oEzkyg" association="_l3qw9VqXEeWPE907oEzkyg"/>
+  </packagedElement>
+</uml:Model>
