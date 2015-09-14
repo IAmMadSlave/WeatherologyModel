@@ -51,4 +51,20 @@
     <ownedEnd xmi:type="uml:Property" xmi:id="_l3qw-FqXEeWPE907oEzkyg" name="fivedayforecastspecificprovider" type="_l3qJ6VqXEeWPE907oEzkyg" association="_l3qw9VqXEeWPE907oEzkyg"/>
     <ownedEnd xmi:type="uml:Property" xmi:id="_l3qw-VqXEeWPE907oEzkyg" name="user" type="_l3pi0FqXEeWPE907oEzkyg" association="_l3qw9VqXEeWPE907oEzkyg"/>
   </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_fB7rYFqbEeWPE907oEzkyg" name="Package1">
+    <packagedElement xmi:type="uml:Package" xmi:id="_l7VeEFqZEeWPE907oEzkyg" name="Models"/>
+    <packagedElement xmi:type="uml:Package" xmi:id="_kl9mkFqZEeWPE907oEzkyg" name="Forecast">
+      <packagedElement xmi:type="uml:Dependency" xmi:id="_B-NS8FqaEeWPE907oEzkyg" client="_kl9mkFqZEeWPE907oEzkyg" supplier="_l7VeEFqZEeWPE907oEzkyg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_k4SssFqZEeWPE907oEzkyg" name="Favorites">
+      <packagedElement xmi:type="uml:Dependency" xmi:id="_YqNJwFqaEeWPE907oEzkyg" client="_k4SssFqZEeWPE907oEzkyg" supplier="_kl9mkFqZEeWPE907oEzkyg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_kJfF8FqZEeWPE907oEzkyg" name="Authorization">
+      <packagedElement xmi:type="uml:Dependency" xmi:id="_7cD0kFqZEeWPE907oEzkyg" client="_VQj0wFqXEeWPE907oEzkyg" supplier="_k4SssFqZEeWPE907oEzkyg"/>
+      <packagedElement xmi:type="uml:Dependency" xmi:id="_XxGXgFqaEeWPE907oEzkyg" client="_kJfF8FqZEeWPE907oEzkyg" supplier="_lYjhIFqZEeWPE907oEzkyg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_lYjhIFqZEeWPE907oEzkyg" name="Controllers">
+      <packagedElement xmi:type="uml:Dependency" xmi:id="_ClANMFqaEeWPE907oEzkyg" client="_VQj0wFqXEeWPE907oEzkyg" supplier="_kl9mkFqZEeWPE907oEzkyg"/>
+    </packagedElement>
+  </packagedElement>
 </uml:Model>
