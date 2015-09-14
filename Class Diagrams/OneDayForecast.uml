@@ -4,30 +4,27 @@
     <ownedAttribute xmi:type="uml:Property" xmi:id="_sv9IUFqgEeWPE907oEzkyg" name="weather" type="_G9S0YFqgEeWPE907oEzkyg" association="_sv8hQFqgEeWPE907oEzkyg"/>
     <ownedAttribute xmi:type="uml:Property" xmi:id="_uaDMoFriEeWPE907oEzkyg" name="zip" type="_wU8zEFriEeWPE907oEzkyg"/>
     <ownedOperation xmi:type="uml:Operation" xmi:id="_tTyvMFriEeWPE907oEzkyg" name="createWeather">
-      <ownedParameter xmi:type="uml:Parameter" xmi:id="_y7uoEFriEeWPE907oEzkyg" name="zip" type="_ywclIFriEeWPE907oEzkyg"/>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_y7uoEFriEeWPE907oEzkyg" name="zip" type="_wU8zEFriEeWPE907oEzkyg"/>
     </ownedOperation>
     <nestedClassifier xmi:type="uml:PrimitiveType" xmi:id="_wU8zEFriEeWPE907oEzkyg" name="int"/>
-    <nestedClassifier xmi:type="uml:PrimitiveType" xmi:id="_ywclIFriEeWPE907oEzkyg" name="int"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_G9S0YFqgEeWPE907oEzkyg" name="Weather">
     <ownedAttribute xmi:type="uml:Property" xmi:id="_sv8hQ1qgEeWPE907oEzkyg" name="onedayforecastcontroller" type="_EVE08FqgEeWPE907oEzkyg" association="_sv8hQFqgEeWPE907oEzkyg"/>
     <ownedAttribute xmi:type="uml:Property" xmi:id="_uVWY01qgEeWPE907oEzkyg" name="w1adapter" type="_H6v7IFqgEeWPE907oEzkyg" association="_uVWY0FqgEeWPE907oEzkyg"/>
     <ownedAttribute xmi:type="uml:Property" xmi:id="_uuLvk1qgEeWPE907oEzkyg" name="w2adapter" type="_KLYhAFqgEeWPE907oEzkyg" association="_uuLvkFqgEeWPE907oEzkyg"/>
     <ownedAttribute xmi:type="uml:Property" xmi:id="_zdq9g1qgEeWPE907oEzkyg" name="w3adapter" type="_OQMaQFqgEeWPE907oEzkyg" association="_zdq9gFqgEeWPE907oEzkyg"/>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_cFpBIFriEeWPE907oEzkyg" name="zip" type="_fVr1kFriEeWPE907oEzkyg"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_cFpBIFriEeWPE907oEzkyg" name="zip" type="_wU8zEFriEeWPE907oEzkyg"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_xXGpQFsGEeWPE907oEzkyg" name="forecasts" type="_5bZ24FsGEeWPE907oEzkyg"/>
     <ownedOperation xmi:type="uml:Operation" xmi:id="_NTjs4FriEeWPE907oEzkyg" name="createW1Adapter">
-      <ownedParameter xmi:type="uml:Parameter" xmi:id="_kGkxsFriEeWPE907oEzkyg" name="zip" type="_j5IyoFriEeWPE907oEzkyg"/>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_kGkxsFriEeWPE907oEzkyg" name="zip" type="_wU8zEFriEeWPE907oEzkyg"/>
     </ownedOperation>
     <ownedOperation xmi:type="uml:Operation" xmi:id="_O2xMEFriEeWPE907oEzkyg" name="createW2Adapter">
-      <ownedParameter xmi:type="uml:Parameter" xmi:id="_mqOaMFriEeWPE907oEzkyg" name="zip" type="_mehggFriEeWPE907oEzkyg"/>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_mqOaMFriEeWPE907oEzkyg" name="zip" type="_wU8zEFriEeWPE907oEzkyg"/>
     </ownedOperation>
     <ownedOperation xmi:type="uml:Operation" xmi:id="_QcS_cFriEeWPE907oEzkyg" name="createW3Adapter">
-      <ownedParameter xmi:type="uml:Parameter" xmi:id="_pHPPMFriEeWPE907oEzkyg" name="zip" type="_o2zmgFriEeWPE907oEzkyg"/>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_pHPPMFriEeWPE907oEzkyg" name="zip" type="_wU8zEFriEeWPE907oEzkyg"/>
     </ownedOperation>
-    <nestedClassifier xmi:type="uml:PrimitiveType" xmi:id="_fVr1kFriEeWPE907oEzkyg" name="int"/>
-    <nestedClassifier xmi:type="uml:PrimitiveType" xmi:id="_j5IyoFriEeWPE907oEzkyg" name="int"/>
-    <nestedClassifier xmi:type="uml:PrimitiveType" xmi:id="_mehggFriEeWPE907oEzkyg" name="int"/>
-    <nestedClassifier xmi:type="uml:PrimitiveType" xmi:id="_o2zmgFriEeWPE907oEzkyg" name="int"/>
+    <nestedClassifier xmi:type="uml:DataType" xmi:id="_5bZ24FsGEeWPE907oEzkyg" name="Map"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_H6v7IFqgEeWPE907oEzkyg" name="W1Adapter">
     <ownedAttribute xmi:type="uml:Property" xmi:id="_uVW_4FqgEeWPE907oEzkyg" name="weather" type="_G9S0YFqgEeWPE907oEzkyg" association="_uVWY0FqgEeWPE907oEzkyg"/>
@@ -36,26 +33,24 @@
       <ownedParameter xmi:type="uml:Parameter" xmi:id="_eCEQMFqjEeWPE907oEzkyg" name="w1" type="_JhDxoFqgEeWPE907oEzkyg"/>
     </ownedOperation>
     <ownedOperation xmi:type="uml:Operation" xmi:id="_fvYGkFqjEeWPE907oEzkyg" name="getOneDayForecast">
-      <ownedParameter xmi:type="uml:Parameter" xmi:id="_34n-gFqjEeWPE907oEzkyg" name="zip" type="_3qPkQFqjEeWPE907oEzkyg">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_34n-gFqjEeWPE907oEzkyg" name="zip" type="_wU8zEFriEeWPE907oEzkyg">
         <defaultValue xmi:type="uml:LiteralInteger" xmi:id="_34n-gVqjEeWPE907oEzkyg" name="int"/>
       </ownedParameter>
     </ownedOperation>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_JhDxoFqgEeWPE907oEzkyg" name="W1">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_LkeDIFsJEeWPE907oEzkyg" name="zip" type="_wU8zEFriEeWPE907oEzkyg"/>
     <ownedOperation xmi:type="uml:Operation" xmi:id="_CEkW0FrgEeWPE907oEzkyg" name="W1">
-      <ownedParameter xmi:type="uml:Parameter" xmi:id="_KIkCcFrgEeWPE907oEzkyg" name="zip" type="_J7AHkFrgEeWPE907oEzkyg">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_KIkCcFrgEeWPE907oEzkyg" name="zip" type="_wU8zEFriEeWPE907oEzkyg">
         <defaultValue xmi:type="uml:LiteralInteger" xmi:id="_KIkCcVrgEeWPE907oEzkyg" name="int"/>
       </ownedParameter>
     </ownedOperation>
     <ownedOperation xmi:type="uml:Operation" xmi:id="_LyFlAFrgEeWPE907oEzkyg" name="getOneDayForecast">
-      <ownedParameter xmi:type="uml:Parameter" xmi:id="_RI5RoFrgEeWPE907oEzkyg" name="zip" type="_Q9er0FrgEeWPE907oEzkyg">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_RI5RoFrgEeWPE907oEzkyg" name="zip" type="_wU8zEFriEeWPE907oEzkyg">
         <defaultValue xmi:type="uml:LiteralInteger" xmi:id="_RI5RoVrgEeWPE907oEzkyg" name="int"/>
       </ownedParameter>
     </ownedOperation>
     <nestedClassifier xmi:type="uml:Class" xmi:id="_M8PXsFqjEeWPE907oEzkyg" name="W1"/>
-    <nestedClassifier xmi:type="uml:PrimitiveType" xmi:id="_3qPkQFqjEeWPE907oEzkyg" name="int"/>
-    <nestedClassifier xmi:type="uml:PrimitiveType" xmi:id="_J7AHkFrgEeWPE907oEzkyg" name="int"/>
-    <nestedClassifier xmi:type="uml:PrimitiveType" xmi:id="_Q9er0FrgEeWPE907oEzkyg" name="int"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_KLYhAFqgEeWPE907oEzkyg" name="W2Adapter">
     <ownedAttribute xmi:type="uml:Property" xmi:id="_uuLvlFqgEeWPE907oEzkyg" name="weather" type="_G9S0YFqgEeWPE907oEzkyg" association="_uuLvkFqgEeWPE907oEzkyg"/>
@@ -64,26 +59,23 @@
       <ownedParameter xmi:type="uml:Parameter" xmi:id="_Qi1hwFrhEeWPE907oEzkyg" name="w2" type="_LHuNcFqgEeWPE907oEzkyg"/>
     </ownedOperation>
     <ownedOperation xmi:type="uml:Operation" xmi:id="_VQmG0FrgEeWPE907oEzkyg" name="getOneDayForecast">
-      <ownedParameter xmi:type="uml:Parameter" xmi:id="_yjKB8FrgEeWPE907oEzkyg" name="zip" type="_yToYMFrgEeWPE907oEzkyg">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_yjKB8FrgEeWPE907oEzkyg" name="zip" type="_wU8zEFriEeWPE907oEzkyg">
         <defaultValue xmi:type="uml:LiteralInteger" xmi:id="_yjKB8VrgEeWPE907oEzkyg" name="int"/>
       </ownedParameter>
     </ownedOperation>
-    <nestedClassifier xmi:type="uml:PrimitiveType" xmi:id="_usXWkFrgEeWPE907oEzkyg" name="int"/>
-    <nestedClassifier xmi:type="uml:PrimitiveType" xmi:id="_yToYMFrgEeWPE907oEzkyg" name="int"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_LHuNcFqgEeWPE907oEzkyg" name="W2">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_OGkzgFsJEeWPE907oEzkyg" name="zip" type="_wU8zEFriEeWPE907oEzkyg"/>
     <ownedOperation xmi:type="uml:Operation" xmi:id="_WurOYFrgEeWPE907oEzkyg" name="W2">
-      <ownedParameter xmi:type="uml:Parameter" xmi:id="_9ZG30FrgEeWPE907oEzkyg" name="zip" type="_9NzmwFrgEeWPE907oEzkyg">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_9ZG30FrgEeWPE907oEzkyg" name="zip" type="_wU8zEFriEeWPE907oEzkyg">
         <defaultValue xmi:type="uml:LiteralInteger" xmi:id="_9ZG30VrgEeWPE907oEzkyg" name="int"/>
       </ownedParameter>
     </ownedOperation>
     <ownedOperation xmi:type="uml:Operation" xmi:id="_XnjXIFrgEeWPE907oEzkyg" name="getOneDayForecast">
-      <ownedParameter xmi:type="uml:Parameter" xmi:id="_BWmBEFrhEeWPE907oEzkyg" name="zip" type="_BJ_IcFrhEeWPE907oEzkyg">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_BWmBEFrhEeWPE907oEzkyg" name="zip" type="_wU8zEFriEeWPE907oEzkyg">
         <defaultValue xmi:type="uml:LiteralInteger" xmi:id="_BWmBEVrhEeWPE907oEzkyg" name="int"/>
       </ownedParameter>
     </ownedOperation>
-    <nestedClassifier xmi:type="uml:PrimitiveType" xmi:id="_9NzmwFrgEeWPE907oEzkyg" name="int"/>
-    <nestedClassifier xmi:type="uml:PrimitiveType" xmi:id="_BJ_IcFrhEeWPE907oEzkyg" name="int"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_OQMaQFqgEeWPE907oEzkyg" name="W3Adapter">
     <ownedAttribute xmi:type="uml:Property" xmi:id="_zdrkkFqgEeWPE907oEzkyg" name="weather" type="_G9S0YFqgEeWPE907oEzkyg" association="_zdq9gFqgEeWPE907oEzkyg"/>
@@ -91,21 +83,22 @@
     <ownedOperation xmi:type="uml:Operation" xmi:id="_YsdJsFrgEeWPE907oEzkyg" name="W3Adapter">
       <ownedParameter xmi:type="uml:Parameter" xmi:id="_NbvN8FrhEeWPE907oEzkyg" name="w3" type="_PE84AFqgEeWPE907oEzkyg"/>
     </ownedOperation>
-    <ownedOperation xmi:type="uml:Operation" xmi:id="_Z2J8sFrgEeWPE907oEzkyg" name="getOneDayForecast"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_Z2J8sFrgEeWPE907oEzkyg" name="getOneDayForecast">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_5KQxoFsIEeWPE907oEzkyg" name="zip" type="_wU8zEFriEeWPE907oEzkyg"/>
+    </ownedOperation>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_PE84AFqgEeWPE907oEzkyg" name="W3">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_QZyzUFsJEeWPE907oEzkyg" name="zip" type="_wU8zEFriEeWPE907oEzkyg"/>
     <ownedOperation xmi:type="uml:Operation" xmi:id="_bMbzIFrgEeWPE907oEzkyg" name="W3">
-      <ownedParameter xmi:type="uml:Parameter" xmi:id="_VbR3YFrhEeWPE907oEzkyg" name="zip" type="_VPEnYFrhEeWPE907oEzkyg">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_VbR3YFrhEeWPE907oEzkyg" name="zip" type="_wU8zEFriEeWPE907oEzkyg">
         <defaultValue xmi:type="uml:LiteralInteger" xmi:id="_VbR3YVrhEeWPE907oEzkyg" name="int"/>
       </ownedParameter>
     </ownedOperation>
     <ownedOperation xmi:type="uml:Operation" xmi:id="_cL9WcFrgEeWPE907oEzkyg" name="getOneDayForecast">
-      <ownedParameter xmi:type="uml:Parameter" xmi:id="_ZGkdYFrhEeWPE907oEzkyg" name="zip" type="_Y1zdgFrhEeWPE907oEzkyg">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_ZGkdYFrhEeWPE907oEzkyg" name="zip" type="_wU8zEFriEeWPE907oEzkyg">
         <defaultValue xmi:type="uml:LiteralInteger" xmi:id="_ZGkdYVrhEeWPE907oEzkyg" name="int"/>
       </ownedParameter>
     </ownedOperation>
-    <nestedClassifier xmi:type="uml:PrimitiveType" xmi:id="_VPEnYFrhEeWPE907oEzkyg" name="int"/>
-    <nestedClassifier xmi:type="uml:PrimitiveType" xmi:id="_Y1zdgFrhEeWPE907oEzkyg" name="int"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Interface" xmi:id="_U73oEFqgEeWPE907oEzkyg" name="WeatherProviderAdapter">
     <nestedClassifier xmi:type="uml:PrimitiveType" xmi:id="_vma3wFqjEeWPE907oEzkyg" name="int"/>
@@ -118,8 +111,8 @@
   <packagedElement xmi:type="uml:Realization" xmi:id="_bJLe4FqgEeWPE907oEzkyg" client="_H6v7IFqgEeWPE907oEzkyg" supplier="_StTJoFqeEeWPE907oEzkyg"/>
   <packagedElement xmi:type="uml:Realization" xmi:id="_cCiIwFqgEeWPE907oEzkyg" client="_KLYhAFqgEeWPE907oEzkyg" supplier="_StTJoFqeEeWPE907oEzkyg"/>
   <packagedElement xmi:type="uml:Dependency" xmi:id="_d4Df8FqgEeWPE907oEzkyg" client="_JhDxoFqgEeWPE907oEzkyg" supplier="_H6v7IFqgEeWPE907oEzkyg"/>
-  <packagedElement xmi:type="uml:Dependency" xmi:id="_evjIoFqgEeWPE907oEzkyg" client="_LHuNcFqgEeWPE907oEzkyg" supplier="_KLYhAFqgEeWPE907oEzkyg"/>
-  <packagedElement xmi:type="uml:Dependency" xmi:id="_fZNwsFqgEeWPE907oEzkyg" client="_PE84AFqgEeWPE907oEzkyg" supplier="_OQMaQFqgEeWPE907oEzkyg"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_evjIoFqgEeWPE907oEzkyg" client="_LHuNcFqgEeWPE907oEzkyg" supplier="_StTJoFqeEeWPE907oEzkyg"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_fZNwsFqgEeWPE907oEzkyg" client="_StTJoFqeEeWPE907oEzkyg" supplier="_OQMaQFqgEeWPE907oEzkyg"/>
   <packagedElement xmi:type="uml:Association" xmi:id="_sv8hQFqgEeWPE907oEzkyg" memberEnd="_sv8hQ1qgEeWPE907oEzkyg _sv9IUFqgEeWPE907oEzkyg">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_sv8hQVqgEeWPE907oEzkyg" source="org.eclipse.papyrus">
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_sv8hQlqgEeWPE907oEzkyg" key="nature" value="UML_Nature"/>
@@ -141,4 +134,86 @@
     </eAnnotations>
   </packagedElement>
   <packagedElement xmi:type="uml:Realization" xmi:id="_TLA5AFqhEeWPE907oEzkyg" client="_OQMaQFqgEeWPE907oEzkyg" supplier="_U73oEFqgEeWPE907oEzkyg"/>
+  <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_nQ6jwFsDEeWPE907oEzkyg" name="oneDayForecastController" classifier="_EVE08FqgEeWPE907oEzkyg">
+    <slot xmi:type="uml:Slot" xmi:id="_HHKuMFsFEeWPE907oEzkyg" definingFeature="_uaDMoFriEeWPE907oEzkyg">
+      <value xmi:type="uml:LiteralInteger" xmi:id="_QmDDcFsFEeWPE907oEzkyg" name="MusaScenarioZip" value="33330"/>
+    </slot>
+    <slot xmi:type="uml:Slot" xmi:id="_DphGI1sGEeWPE907oEzkyg" definingFeature="_sv9IUFqgEeWPE907oEzkyg">
+      <value xmi:type="uml:InstanceValue" xmi:id="_DphGJFsGEeWPE907oEzkyg" name="InstanceValue1" type="_G9S0YFqgEeWPE907oEzkyg" instance="_ahXdEFsFEeWPE907oEzkyg"/>
+    </slot>
+  </packagedElement>
+  <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_ahXdEFsFEeWPE907oEzkyg" name="weather" classifier="_G9S0YFqgEeWPE907oEzkyg">
+    <slot xmi:type="uml:Slot" xmi:id="_DphGIVsGEeWPE907oEzkyg" definingFeature="_sv8hQ1qgEeWPE907oEzkyg">
+      <value xmi:type="uml:InstanceValue" xmi:id="_DphGIlsGEeWPE907oEzkyg" name="InstanceValue1" type="_EVE08FqgEeWPE907oEzkyg" instance="_nQ6jwFsDEeWPE907oEzkyg"/>
+    </slot>
+    <slot xmi:type="uml:Slot" xmi:id="_FGXeoVsGEeWPE907oEzkyg" definingFeature="_uVWY01qgEeWPE907oEzkyg">
+      <value xmi:type="uml:InstanceValue" xmi:id="_FGXeolsGEeWPE907oEzkyg" name="InstanceValue1" type="_H6v7IFqgEeWPE907oEzkyg" instance="_iYwQEFsFEeWPE907oEzkyg"/>
+    </slot>
+    <slot xmi:type="uml:Slot" xmi:id="_F_bNkVsGEeWPE907oEzkyg" definingFeature="_uuLvk1qgEeWPE907oEzkyg">
+      <value xmi:type="uml:InstanceValue" xmi:id="_F_bNklsGEeWPE907oEzkyg" name="InstanceValue1" type="_KLYhAFqgEeWPE907oEzkyg" instance="_mJWz4FsFEeWPE907oEzkyg"/>
+    </slot>
+    <slot xmi:type="uml:Slot" xmi:id="_G0MSYVsGEeWPE907oEzkyg" definingFeature="_zdq9g1qgEeWPE907oEzkyg">
+      <value xmi:type="uml:InstanceValue" xmi:id="_G0MSYlsGEeWPE907oEzkyg" name="InstanceValue1" type="_OQMaQFqgEeWPE907oEzkyg" instance="_pRsd0FsFEeWPE907oEzkyg"/>
+    </slot>
+    <slot xmi:type="uml:Slot" xmi:id="_XTFGsFsGEeWPE907oEzkyg" definingFeature="_cFpBIFriEeWPE907oEzkyg">
+      <value xmi:type="uml:LiteralInteger" xmi:id="_cckwEFsGEeWPE907oEzkyg" name="zip" value="33330"/>
+    </slot>
+    <slot xmi:type="uml:Slot" xmi:id="__lZT8FsGEeWPE907oEzkyg" definingFeature="_xXGpQFsGEeWPE907oEzkyg">
+      <value xmi:type="uml:LiteralString" xmi:id="_Q9dL8FsHEeWPE907oEzkyg" name="forecastMap" value="serialized versions of w1, w2, w3"/>
+    </slot>
+  </packagedElement>
+  <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_iYwQEFsFEeWPE907oEzkyg" name="w1Adapter" classifier="_H6v7IFqgEeWPE907oEzkyg">
+    <slot xmi:type="uml:Slot" xmi:id="_FGXeo1sGEeWPE907oEzkyg" definingFeature="_uVW_4FqgEeWPE907oEzkyg">
+      <value xmi:type="uml:InstanceValue" xmi:id="_FGXepFsGEeWPE907oEzkyg" name="InstanceValue1" type="_G9S0YFqgEeWPE907oEzkyg" instance="_ahXdEFsFEeWPE907oEzkyg"/>
+    </slot>
+    <slot xmi:type="uml:Slot" xmi:id="_mr2AcFsGEeWPE907oEzkyg" definingFeature="_IORMsFqjEeWPE907oEzkyg">
+      <value xmi:type="uml:LiteralString" xmi:id="_Y-AaoFsKEeWPE907oEzkyg" name="w1temp" value="w1-id-33330"/>
+    </slot>
+  </packagedElement>
+  <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_mJWz4FsFEeWPE907oEzkyg" name="w2Adapter" classifier="_KLYhAFqgEeWPE907oEzkyg">
+    <slot xmi:type="uml:Slot" xmi:id="_F_bNk1sGEeWPE907oEzkyg" definingFeature="_uuLvlFqgEeWPE907oEzkyg">
+      <value xmi:type="uml:InstanceValue" xmi:id="_F_bNlFsGEeWPE907oEzkyg" name="InstanceValue1" type="_G9S0YFqgEeWPE907oEzkyg" instance="_ahXdEFsFEeWPE907oEzkyg"/>
+    </slot>
+    <slot xmi:type="uml:Slot" xmi:id="_jDHmQFsGEeWPE907oEzkyg" definingFeature="_nOX7AFrgEeWPE907oEzkyg">
+      <value xmi:type="uml:LiteralString" xmi:id="_d7dMEFsKEeWPE907oEzkyg" name="w2temp" value="w2-id-33330"/>
+    </slot>
+  </packagedElement>
+  <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_pRsd0FsFEeWPE907oEzkyg" name="w3Adapter" classifier="_OQMaQFqgEeWPE907oEzkyg">
+    <slot xmi:type="uml:Slot" xmi:id="_G0MSY1sGEeWPE907oEzkyg" definingFeature="_zdrkkFqgEeWPE907oEzkyg">
+      <value xmi:type="uml:InstanceValue" xmi:id="_G0MSZFsGEeWPE907oEzkyg" name="InstanceValue1" type="_G9S0YFqgEeWPE907oEzkyg" instance="_ahXdEFsFEeWPE907oEzkyg"/>
+    </slot>
+    <slot xmi:type="uml:Slot" xmi:id="_oTQDIFsGEeWPE907oEzkyg" definingFeature="_A1GysFrjEeWPE907oEzkyg">
+      <value xmi:type="uml:LiteralString" xmi:id="_jQAO4FsKEeWPE907oEzkyg" name="w3temp" value="w3-id-33330"/>
+    </slot>
+  </packagedElement>
+  <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_rjb28FsFEeWPE907oEzkyg" name="w1" classifier="_JhDxoFqgEeWPE907oEzkyg">
+    <slot xmi:type="uml:Slot" xmi:id="_iximsFsJEeWPE907oEzkyg" definingFeature="_LkeDIFsJEeWPE907oEzkyg">
+      <value xmi:type="uml:LiteralInteger" xmi:id="_Is2gUFsKEeWPE907oEzkyg" name="zip" value="33330"/>
+    </slot>
+  </packagedElement>
+  <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_vKSB0FsFEeWPE907oEzkyg" name="w2" classifier="_LHuNcFqgEeWPE907oEzkyg">
+    <slot xmi:type="uml:Slot" xmi:id="_lpRBwFsJEeWPE907oEzkyg" definingFeature="_OGkzgFsJEeWPE907oEzkyg">
+      <value xmi:type="uml:LiteralInteger" xmi:id="_K7gwQFsKEeWPE907oEzkyg" name="zip" value="33330"/>
+    </slot>
+  </packagedElement>
+  <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_xMP5kFsFEeWPE907oEzkyg" name="w3" classifier="_PE84AFqgEeWPE907oEzkyg">
+    <slot xmi:type="uml:Slot" xmi:id="_nk0IcFsJEeWPE907oEzkyg" definingFeature="_QZyzUFsJEeWPE907oEzkyg">
+      <value xmi:type="uml:LiteralInteger" xmi:id="_OvcU4FsKEeWPE907oEzkyg" name="zip" value="33330"/>
+    </slot>
+  </packagedElement>
+  <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_CjSd4FsGEeWPE907oEzkyg" name="InstanceSpecification1" classifier="_sv8hQFqgEeWPE907oEzkyg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_DphGIFsGEeWPE907oEzkyg" source="InstanceEnd" references="_nQ6jwFsDEeWPE907oEzkyg _ahXdEFsFEeWPE907oEzkyg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_Eu8dIFsGEeWPE907oEzkyg" name="InstanceSpecification2" classifier="_uVWY0FqgEeWPE907oEzkyg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_FGXeoFsGEeWPE907oEzkyg" source="InstanceEnd" references="_iYwQEFsFEeWPE907oEzkyg _ahXdEFsFEeWPE907oEzkyg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_Fr3YYFsGEeWPE907oEzkyg" name="InstanceSpecification3" classifier="_uuLvkFqgEeWPE907oEzkyg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_F_bNkFsGEeWPE907oEzkyg" source="InstanceEnd" references="_mJWz4FsFEeWPE907oEzkyg _ahXdEFsFEeWPE907oEzkyg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_GeLmIFsGEeWPE907oEzkyg" name="InstanceSpecification4" classifier="_zdq9gFqgEeWPE907oEzkyg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_G0MSYFsGEeWPE907oEzkyg" source="InstanceEnd" references="_pRsd0FsFEeWPE907oEzkyg _ahXdEFsFEeWPE907oEzkyg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_HSNEEFsGEeWPE907oEzkyg" name="InstanceSpecification5"/>
+  <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_Ii_WgFsGEeWPE907oEzkyg" name="InstanceSpecification6"/>
+  <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_JK0ykFsGEeWPE907oEzkyg" name="InstanceSpecification7"/>
 </uml:Model>

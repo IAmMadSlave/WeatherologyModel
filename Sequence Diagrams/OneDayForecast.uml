@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_skOQ4FqJEeWPE907oEzkyg" name="RootElement">
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_skOQ4FqJEeWPE907oEzkyg" name="UnregisteredUser">
   <packageImport xmi:type="uml:PackageImport" xmi:id="_sv8_wFqJEeWPE907oEzkyg">
     <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
   </packageImport>
@@ -140,5 +140,54 @@
     <message xmi:type="uml:Message" xmi:id="_9vJAkFqQEeWPE907oEzkyg" name="17. show()" messageSort="reply" receiveEvent="_9vKOsFqQEeWPE907oEzkyg" sendEvent="_9vJnoFqQEeWPE907oEzkyg"/>
     <message xmi:type="uml:Message" xmi:id="_P9QW0FqREeWPE907oEzkyg" name="5. getOneDayForecast(zip)" receiveEvent="_P9SMAFqREeWPE907oEzkyg" sendEvent="_P9Rk8FqREeWPE907oEzkyg"/>
     <message xmi:type="uml:Message" xmi:id="_Su3i0FqREeWPE907oEzkyg" name="6. return()" messageSort="reply" receiveEvent="_Su4w8VqREeWPE907oEzkyg" sendEvent="_Su4w8FqREeWPE907oEzkyg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_WZLCMFsREeWPE907oEzkyg" name="UseCase1">
+    <extend xmi:type="uml:Extend" xmi:id="_rXX6cFsREeWPE907oEzkyg" extendedCase="_ZNiAMFsREeWPE907oEzkyg" extensionLocation="_rXX6cVsREeWPE907oEzkyg"/>
+    <include xmi:type="uml:Include" xmi:id="_qUMmMFsREeWPE907oEzkyg" addition="_X5OfsFsREeWPE907oEzkyg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_X5OfsFsREeWPE907oEzkyg" name="UseCase2">
+    <extend xmi:type="uml:Extend" xmi:id="_r7svgFsREeWPE907oEzkyg" extendedCase="_ZnvP8FsREeWPE907oEzkyg" extensionLocation="_r7svgVsREeWPE907oEzkyg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_ZNiAMFsREeWPE907oEzkyg" name="UseCase3">
+    <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_rXX6cVsREeWPE907oEzkyg" name="ExtensionPoint1"/>
+    <include xmi:type="uml:Include" xmi:id="_q0czkFsREeWPE907oEzkyg" addition="_ZnvP8FsREeWPE907oEzkyg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_ZnvP8FsREeWPE907oEzkyg" name="UseCase4">
+    <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_r7svgVsREeWPE907oEzkyg" name="ExtensionPoint1"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_jNgQUFsREeWPE907oEzkyg" name="User"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_j-4C4FsREeWPE907oEzkyg" name="RegisteredUser">
+    <generalization xmi:type="uml:Generalization" xmi:id="_pG4egFsREeWPE907oEzkyg" general="_jNgQUFsREeWPE907oEzkyg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_lqeCAFsREeWPE907oEzkyg" name="Unregistered">
+    <generalization xmi:type="uml:Generalization" xmi:id="_pl1EUFsREeWPE907oEzkyg" general="_jNgQUFsREeWPE907oEzkyg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_w95eEFsREeWPE907oEzkyg" memberEnd="_w96FIVsREeWPE907oEzkyg _w96FIlsREeWPE907oEzkyg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_w95eEVsREeWPE907oEzkyg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_w96FIFsREeWPE907oEzkyg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_w96FIVsREeWPE907oEzkyg" name="usecase1" type="_WZLCMFsREeWPE907oEzkyg" association="_w95eEFsREeWPE907oEzkyg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_w96FIlsREeWPE907oEzkyg" name="user" type="_jNgQUFsREeWPE907oEzkyg" association="_w95eEFsREeWPE907oEzkyg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_x9XXAFsREeWPE907oEzkyg" memberEnd="_x9XXA1sREeWPE907oEzkyg _x9X-EFsREeWPE907oEzkyg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_x9XXAVsREeWPE907oEzkyg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_x9XXAlsREeWPE907oEzkyg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_x9XXA1sREeWPE907oEzkyg" name="usecase2" type="_X5OfsFsREeWPE907oEzkyg" association="_x9XXAFsREeWPE907oEzkyg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_x9X-EFsREeWPE907oEzkyg" name="user" type="_jNgQUFsREeWPE907oEzkyg" association="_x9XXAFsREeWPE907oEzkyg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_zGb34FsREeWPE907oEzkyg" memberEnd="_zGb341sREeWPE907oEzkyg _zGb35FsREeWPE907oEzkyg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_zGb34VsREeWPE907oEzkyg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_zGb34lsREeWPE907oEzkyg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_zGb341sREeWPE907oEzkyg" name="usecase3" type="_ZNiAMFsREeWPE907oEzkyg" association="_zGb34FsREeWPE907oEzkyg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_zGb35FsREeWPE907oEzkyg" name="user" type="_jNgQUFsREeWPE907oEzkyg" association="_zGb34FsREeWPE907oEzkyg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_zsaSwFsREeWPE907oEzkyg" memberEnd="_zsaSw1sREeWPE907oEzkyg _zsaSxFsREeWPE907oEzkyg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_zsaSwVsREeWPE907oEzkyg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_zsaSwlsREeWPE907oEzkyg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_zsaSw1sREeWPE907oEzkyg" name="usecase4" type="_ZnvP8FsREeWPE907oEzkyg" association="_zsaSwFsREeWPE907oEzkyg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_zsaSxFsREeWPE907oEzkyg" name="user" type="_jNgQUFsREeWPE907oEzkyg" association="_zsaSwFsREeWPE907oEzkyg"/>
   </packagedElement>
 </uml:Model>
