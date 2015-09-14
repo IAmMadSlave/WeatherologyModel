@@ -141,18 +141,18 @@
     <message xmi:type="uml:Message" xmi:id="_P9QW0FqREeWPE907oEzkyg" name="5. getOneDayForecast(zip)" receiveEvent="_P9SMAFqREeWPE907oEzkyg" sendEvent="_P9Rk8FqREeWPE907oEzkyg"/>
     <message xmi:type="uml:Message" xmi:id="_Su3i0FqREeWPE907oEzkyg" name="6. return()" messageSort="reply" receiveEvent="_Su4w8VqREeWPE907oEzkyg" sendEvent="_Su4w8FqREeWPE907oEzkyg"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:UseCase" xmi:id="_WZLCMFsREeWPE907oEzkyg" name="UseCase1">
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_WZLCMFsREeWPE907oEzkyg" name="OneDayForecast">
     <extend xmi:type="uml:Extend" xmi:id="_rXX6cFsREeWPE907oEzkyg" extendedCase="_ZNiAMFsREeWPE907oEzkyg" extensionLocation="_rXX6cVsREeWPE907oEzkyg"/>
     <include xmi:type="uml:Include" xmi:id="_qUMmMFsREeWPE907oEzkyg" addition="_X5OfsFsREeWPE907oEzkyg"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:UseCase" xmi:id="_X5OfsFsREeWPE907oEzkyg" name="UseCase2">
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_X5OfsFsREeWPE907oEzkyg" name="FiveDayForecast">
     <extend xmi:type="uml:Extend" xmi:id="_r7svgFsREeWPE907oEzkyg" extendedCase="_ZnvP8FsREeWPE907oEzkyg" extensionLocation="_r7svgVsREeWPE907oEzkyg"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:UseCase" xmi:id="_ZNiAMFsREeWPE907oEzkyg" name="UseCase3">
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_ZNiAMFsREeWPE907oEzkyg" name="OneDayForecastSpecificProvider">
     <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_rXX6cVsREeWPE907oEzkyg" name="ExtensionPoint1"/>
     <include xmi:type="uml:Include" xmi:id="_q0czkFsREeWPE907oEzkyg" addition="_ZnvP8FsREeWPE907oEzkyg"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:UseCase" xmi:id="_ZnvP8FsREeWPE907oEzkyg" name="UseCase4">
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_ZnvP8FsREeWPE907oEzkyg" name="FiveDayForecastSpecificProvider">
     <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_r7svgVsREeWPE907oEzkyg" name="ExtensionPoint1"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Actor" xmi:id="_jNgQUFsREeWPE907oEzkyg" name="User"/>
