@@ -105,7 +105,7 @@
     <styles xmi:type="notation:StringValueStyle" xmi:id="_holhwVqXEeWPE907oEzkyg" name="diagram_compatibility_version" stringValue="1.1.0"/>
     <styles xmi:type="notation:DiagramStyle" xmi:id="_holhwlqXEeWPE907oEzkyg"/>
     <styles xmi:type="style:PapyrusViewStyle" xmi:id="_holhw1qXEeWPE907oEzkyg">
-      <owner xmi:type="uml:Model" href="OneDayForecastl.uml#_VQj0wFqXEeWPE907oEzkyg"/>
+      <owner xmi:type="uml:Model" href="OneDayForecast.uml#_VQj0wFqXEeWPE907oEzkyg"/>
     </styles>
     <element xmi:type="uml:Model" href="../Sequence%20Diagrams/OneDayForecast.uml#_skOQ4FqJEeWPE907oEzkyg"/>
     <edges xmi:type="notation:Connector" xmi:id="_holhxFqXEeWPE907oEzkyg" type="4010" source="_holhblqXEeWPE907oEzkyg" target="_holhYVqXEeWPE907oEzkyg">
@@ -233,7 +233,7 @@
             <layoutConstraint xmi:type="notation:Bounds" xmi:id="_l7WFJVqZEeWPE907oEzkyg"/>
           </children>
           <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_l7WFIVqZEeWPE907oEzkyg"/>
-          <element xmi:type="uml:Package" href="OneDayForecastl.uml#_l7VeEFqZEeWPE907oEzkyg"/>
+          <element xmi:type="uml:Package" href="OneDayForecast.uml#_l7VeEFqZEeWPE907oEzkyg"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_l7WFIlqZEeWPE907oEzkyg" x="526" y="287"/>
         </children>
         <children xmi:type="notation:Shape" xmi:id="_kl-NoFqZEeWPE907oEzkyg" type="2016">
@@ -242,7 +242,7 @@
             <layoutConstraint xmi:type="notation:Bounds" xmi:id="_kl-NpVqZEeWPE907oEzkyg"/>
           </children>
           <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_kl-NoVqZEeWPE907oEzkyg"/>
-          <element xmi:type="uml:Package" href="OneDayForecastl.uml#_kl9mkFqZEeWPE907oEzkyg"/>
+          <element xmi:type="uml:Package" href="OneDayForecast.uml#_kl9mkFqZEeWPE907oEzkyg"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_kl-NolqZEeWPE907oEzkyg" x="303" y="284"/>
         </children>
         <children xmi:type="notation:Shape" xmi:id="_k4SssVqZEeWPE907oEzkyg" type="2016">
@@ -251,7 +251,7 @@
             <layoutConstraint xmi:type="notation:Bounds" xmi:id="_k4TTwlqZEeWPE907oEzkyg"/>
           </children>
           <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_k4SsslqZEeWPE907oEzkyg"/>
-          <element xmi:type="uml:Package" href="OneDayForecastl.uml#_k4SssFqZEeWPE907oEzkyg"/>
+          <element xmi:type="uml:Package" href="OneDayForecast.uml#_k4SssFqZEeWPE907oEzkyg"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_k4Sss1qZEeWPE907oEzkyg" x="76" y="285"/>
         </children>
         <children xmi:type="notation:Shape" xmi:id="_kJftAFqZEeWPE907oEzkyg" type="2016">
@@ -260,7 +260,7 @@
             <layoutConstraint xmi:type="notation:Bounds" xmi:id="_kJgUEVqZEeWPE907oEzkyg"/>
           </children>
           <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_kJftAVqZEeWPE907oEzkyg"/>
-          <element xmi:type="uml:Package" href="OneDayForecastl.uml#_kJfF8FqZEeWPE907oEzkyg"/>
+          <element xmi:type="uml:Package" href="OneDayForecast.uml#_kJfF8FqZEeWPE907oEzkyg"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_kJftAlqZEeWPE907oEzkyg" x="75" y="44"/>
         </children>
         <children xmi:type="notation:Shape" xmi:id="_lYkIMFqZEeWPE907oEzkyg" type="2016">
@@ -269,21 +269,21 @@
             <layoutConstraint xmi:type="notation:Bounds" xmi:id="_lYkINVqZEeWPE907oEzkyg"/>
           </children>
           <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_lYkIMVqZEeWPE907oEzkyg"/>
-          <element xmi:type="uml:Package" href="OneDayForecastl.uml#_lYjhIFqZEeWPE907oEzkyg"/>
+          <element xmi:type="uml:Package" href="OneDayForecast.uml#_lYjhIFqZEeWPE907oEzkyg"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_lYkIMlqZEeWPE907oEzkyg" x="302" y="46"/>
         </children>
         <layoutConstraint xmi:type="notation:Bounds" xmi:id="_fB85hVqbEeWPE907oEzkyg"/>
       </children>
       <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_fB85gVqbEeWPE907oEzkyg"/>
-      <element xmi:type="uml:Package" href="OneDayForecastl.uml#_fB7rYFqbEeWPE907oEzkyg"/>
+      <element xmi:type="uml:Package" href="OneDayForecast.uml#_fB7rYFqbEeWPE907oEzkyg"/>
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_fB85glqbEeWPE907oEzkyg" x="76" y="49" width="756" height="499"/>
     </children>
     <styles xmi:type="notation:StringValueStyle" xmi:id="_bo_rkVqZEeWPE907oEzkyg" name="diagram_compatibility_version" stringValue="1.1.0"/>
     <styles xmi:type="notation:DiagramStyle" xmi:id="_bo_rklqZEeWPE907oEzkyg"/>
     <styles xmi:type="style:PapyrusViewStyle" xmi:id="_bo_rk1qZEeWPE907oEzkyg">
-      <owner xmi:type="uml:Model" href="OneDayForecastl.uml#_VQj0wFqXEeWPE907oEzkyg"/>
+      <owner xmi:type="uml:Model" href="OneDayForecast.uml#_VQj0wFqXEeWPE907oEzkyg"/>
     </styles>
-    <element xmi:type="uml:Model" href="OneDayForecastl.uml#_VQj0wFqXEeWPE907oEzkyg"/>
+    <element xmi:type="uml:Model" href="OneDayForecast.uml#_VQj0wFqXEeWPE907oEzkyg"/>
     <edges xmi:type="notation:Connector" xmi:id="_7cGQ0FqZEeWPE907oEzkyg" type="4013" source="_kJftAFqZEeWPE907oEzkyg" target="_k4SssVqZEeWPE907oEzkyg">
       <children xmi:type="notation:DecorationNode" xmi:id="_7cGQ01qZEeWPE907oEzkyg" type="6010">
         <layoutConstraint xmi:type="notation:Location" xmi:id="_7cGQ1FqZEeWPE907oEzkyg" y="40"/>
@@ -292,7 +292,7 @@
         <layoutConstraint xmi:type="notation:Location" xmi:id="_7cGQ1lqZEeWPE907oEzkyg" y="-20"/>
       </children>
       <styles xmi:type="notation:FontStyle" xmi:id="_7cGQ0VqZEeWPE907oEzkyg"/>
-      <element xmi:type="uml:Dependency" href="OneDayForecastl.uml#_7cD0kFqZEeWPE907oEzkyg"/>
+      <element xmi:type="uml:Dependency" href="OneDayForecast.uml#_7cD0kFqZEeWPE907oEzkyg"/>
       <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_7cGQ0lqZEeWPE907oEzkyg" points="[-3, 47, 39, -166]$[33, 215, 75, 2]"/>
       <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_7cSeEFqZEeWPE907oEzkyg" id="(0.5866666666666667,1.0)"/>
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_7cSeEVqZEeWPE907oEzkyg" id="(0.58,0.0)"/>
@@ -305,7 +305,7 @@
         <layoutConstraint xmi:type="notation:Location" xmi:id="_B-QWRlqaEeWPE907oEzkyg" y="-20"/>
       </children>
       <styles xmi:type="notation:FontStyle" xmi:id="_B-QWQVqaEeWPE907oEzkyg"/>
-      <element xmi:type="uml:Dependency" href="OneDayForecastl.uml#_B-NS8FqaEeWPE907oEzkyg"/>
+      <element xmi:type="uml:Dependency" href="OneDayForecast.uml#_B-NS8FqaEeWPE907oEzkyg"/>
       <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_B-QWQlqaEeWPE907oEzkyg" points="[75, 6, -275, 4]$[344, -51, -6, -53]"/>
       <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_B-Wc4FqaEeWPE907oEzkyg" id="(1.0,0.56)"/>
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_B-Wc4VqaEeWPE907oEzkyg" id="(0.0,0.54)"/>
@@ -318,7 +318,7 @@
         <layoutConstraint xmi:type="notation:Location" xmi:id="_ClDQhlqaEeWPE907oEzkyg" y="-20"/>
       </children>
       <styles xmi:type="notation:FontStyle" xmi:id="_ClDQgVqaEeWPE907oEzkyg"/>
-      <element xmi:type="uml:Dependency" href="OneDayForecastl.uml#_ClANMFqaEeWPE907oEzkyg"/>
+      <element xmi:type="uml:Dependency" href="OneDayForecast.uml#_ClANMFqaEeWPE907oEzkyg"/>
       <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_ClDQglqaEeWPE907oEzkyg" points="[-5, 75, 7, -127]$[-24, 166, -12, -36]"/>
       <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ClNBgFqaEeWPE907oEzkyg" id="(0.38666666666666666,1.0)"/>
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ClNBgVqaEeWPE907oEzkyg" id="(0.38,0.0)"/>
@@ -331,7 +331,7 @@
         <layoutConstraint xmi:type="notation:Location" xmi:id="_XxJa1lqaEeWPE907oEzkyg" y="-20"/>
       </children>
       <styles xmi:type="notation:FontStyle" xmi:id="_XxJa0VqaEeWPE907oEzkyg"/>
-      <element xmi:type="uml:Dependency" href="OneDayForecastl.uml#_XxGXgFqaEeWPE907oEzkyg"/>
+      <element xmi:type="uml:Dependency" href="OneDayForecast.uml#_XxGXgFqaEeWPE907oEzkyg"/>
       <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_XxJa0lqaEeWPE907oEzkyg" points="[75, -1, -234, 0]$[275, -2, -34, -1]"/>
       <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_XxTy4FqaEeWPE907oEzkyg" id="(1.0,0.5066666666666667)"/>
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_XxTy4VqaEeWPE907oEzkyg" id="(0.0,0.49333333333333335)"/>
@@ -344,7 +344,7 @@
         <layoutConstraint xmi:type="notation:Location" xmi:id="_YqQ0JlqaEeWPE907oEzkyg" y="-20"/>
       </children>
       <styles xmi:type="notation:FontStyle" xmi:id="_YqQ0IVqaEeWPE907oEzkyg"/>
-      <element xmi:type="uml:Dependency" href="OneDayForecastl.uml#_YqNJwFqaEeWPE907oEzkyg"/>
+      <element xmi:type="uml:Dependency" href="OneDayForecast.uml#_YqNJwFqaEeWPE907oEzkyg"/>
       <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_YqQ0IlqaEeWPE907oEzkyg" points="[75, 2, -275, 2]$[275, 34, -75, 34]"/>
       <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_YqYI4FqaEeWPE907oEzkyg" id="(1.0,0.56)"/>
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_YqYI4VqaEeWPE907oEzkyg" id="(0.0,0.5666666666666667)"/>

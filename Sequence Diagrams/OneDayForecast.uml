@@ -110,7 +110,7 @@
     <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_Qj0H4FqOEeWPE907oEzkyg" name="BehaviorExecSpecFinish" covered="_AnQhYFqKEeWPE907oEzkyg" execution="_Qjzg0FqOEeWPE907oEzkyg"/>
     <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_X-WxYFqPEeWPE907oEzkyg" name="Message10Send0" covered="_Ba_rcFqKEeWPE907oEzkyg"/>
     <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_wxqFMFqKEeWPE907oEzkyg" name="Message3Send0" covered="_Ba_rcFqKEeWPE907oEzkyg"/>
-    <message xmi:type="uml:Message" xmi:id="_h15QgFqKEeWPE907oEzkyg" name="click(zip)" receiveEvent="_h1864FqKEeWPE907oEzkyg" sendEvent="_h18T0FqKEeWPE907oEzkyg"/>
+    <message xmi:type="uml:Message" xmi:id="_h15QgFqKEeWPE907oEzkyg" name="1. click(zip)" receiveEvent="_h1864FqKEeWPE907oEzkyg" sendEvent="_h18T0FqKEeWPE907oEzkyg"/>
     <message xmi:type="uml:Message" xmi:id="_7nRj4FqKEeWPE907oEzkyg" name="createW3(zip)"/>
     <message xmi:type="uml:Message" xmi:id="_kx4EAFqLEeWPE907oEzkyg" messageSort="reply"/>
     <message xmi:type="uml:Message" xmi:id="_mGcDMFqLEeWPE907oEzkyg" messageSort="reply"/>
@@ -124,21 +124,21 @@
     <message xmi:type="uml:Message" xmi:id="_31v2MFqOEeWPE907oEzkyg" name="Message1" messageSort="asynchCall" sendEvent="_31wdQFqOEeWPE907oEzkyg"/>
     <message xmi:type="uml:Message" xmi:id="_4pdyIFqOEeWPE907oEzkyg" name="Message2" messageSort="asynchCall" sendEvent="_4pfAQFqOEeWPE907oEzkyg"/>
     <message xmi:type="uml:Message" xmi:id="_E6hUEFqPEeWPE907oEzkyg" name="Message5" sendEvent="_E6h7IFqPEeWPE907oEzkyg"/>
-    <message xmi:type="uml:Message" xmi:id="_NGw8wFqPEeWPE907oEzkyg" name="return()" messageSort="reply" receiveEvent="_NGyK4FqPEeWPE907oEzkyg" sendEvent="_L5i7sFqPEeWPE907oEzkyg"/>
-    <message xmi:type="uml:Message" xmi:id="_W0DhcFqPEeWPE907oEzkyg" name="Message9" messageSort="asynchCall" receiveEvent="_W0EvkFqPEeWPE907oEzkyg" sendEvent="_W0EIgFqPEeWPE907oEzkyg"/>
-    <message xmi:type="uml:Message" xmi:id="_iTxtEFqPEeWPE907oEzkyg" name="Message11" messageSort="asynchCall" receiveEvent="_iTy7MVqPEeWPE907oEzkyg" sendEvent="_iTy7MFqPEeWPE907oEzkyg"/>
-    <message xmi:type="uml:Message" xmi:id="_k8VqwFqPEeWPE907oEzkyg" name="Message12" receiveEvent="_k8W44VqPEeWPE907oEzkyg" sendEvent="_k8W44FqPEeWPE907oEzkyg"/>
-    <message xmi:type="uml:Message" xmi:id="_mTMwAFqPEeWPE907oEzkyg" name="return()" messageSort="reply" receiveEvent="_mTOlMFqPEeWPE907oEzkyg" sendEvent="_mTN-IFqPEeWPE907oEzkyg"/>
-    <message xmi:type="uml:Message" xmi:id="_rQqvkFqPEeWPE907oEzkyg" name="return()" messageSort="reply" receiveEvent="_rQrWoFqPEeWPE907oEzkyg" sendEvent="_mTOlMFqPEeWPE907oEzkyg"/>
-    <message xmi:type="uml:Message" xmi:id="_y9qQcFqPEeWPE907oEzkyg" name="Message15" messageSort="asynchCall" receiveEvent="_y9rekFqPEeWPE907oEzkyg" sendEvent="_y9q3gFqPEeWPE907oEzkyg"/>
-    <message xmi:type="uml:Message" xmi:id="_2BGzUFqPEeWPE907oEzkyg" name="Message16" receiveEvent="_2BIBcVqPEeWPE907oEzkyg" sendEvent="_2BIBcFqPEeWPE907oEzkyg"/>
-    <message xmi:type="uml:Message" xmi:id="_90hFQFqPEeWPE907oEzkyg" name="return()" messageSort="reply" receiveEvent="_90i6cFqPEeWPE907oEzkyg" sendEvent="_90iTYFqPEeWPE907oEzkyg"/>
-    <message xmi:type="uml:Message" xmi:id="_-u5C0FqPEeWPE907oEzkyg" name="return()" messageSort="reply" receiveEvent="_-u5p4FqPEeWPE907oEzkyg" sendEvent="_90i6cFqPEeWPE907oEzkyg"/>
-    <message xmi:type="uml:Message" xmi:id="_gkTeEFqQEeWPE907oEzkyg" name="Message19" receiveEvent="_gkVTQFqQEeWPE907oEzkyg" sendEvent="_gkUsMFqQEeWPE907oEzkyg"/>
-    <message xmi:type="uml:Message" xmi:id="_i0uokFqQEeWPE907oEzkyg" name="Message20" receiveEvent="_i0v2sFqQEeWPE907oEzkyg" sendEvent="_i0vPoFqQEeWPE907oEzkyg"/>
-    <message xmi:type="uml:Message" xmi:id="_8KhzMFqQEeWPE907oEzkyg" name="return()" messageSort="reply" receiveEvent="_8KjoYFqQEeWPE907oEzkyg" sendEvent="_8KjBUFqQEeWPE907oEzkyg"/>
-    <message xmi:type="uml:Message" xmi:id="_9vJAkFqQEeWPE907oEzkyg" name="show()" messageSort="reply" receiveEvent="_9vKOsFqQEeWPE907oEzkyg" sendEvent="_9vJnoFqQEeWPE907oEzkyg"/>
-    <message xmi:type="uml:Message" xmi:id="_P9QW0FqREeWPE907oEzkyg" name="Message24" receiveEvent="_P9SMAFqREeWPE907oEzkyg" sendEvent="_P9Rk8FqREeWPE907oEzkyg"/>
-    <message xmi:type="uml:Message" xmi:id="_Su3i0FqREeWPE907oEzkyg" name="return()" messageSort="reply" receiveEvent="_Su4w8VqREeWPE907oEzkyg" sendEvent="_Su4w8FqREeWPE907oEzkyg"/>
+    <message xmi:type="uml:Message" xmi:id="_NGw8wFqPEeWPE907oEzkyg" name="7. return()" messageSort="reply" receiveEvent="_NGyK4FqPEeWPE907oEzkyg" sendEvent="_L5i7sFqPEeWPE907oEzkyg"/>
+    <message xmi:type="uml:Message" xmi:id="_W0DhcFqPEeWPE907oEzkyg" name="4. createW1Adapter(zip)" messageSort="asynchCall" receiveEvent="_W0EvkFqPEeWPE907oEzkyg" sendEvent="_W0EIgFqPEeWPE907oEzkyg"/>
+    <message xmi:type="uml:Message" xmi:id="_iTxtEFqPEeWPE907oEzkyg" name="8. createW2Adapter(zip)" messageSort="asynchCall" receiveEvent="_iTy7MVqPEeWPE907oEzkyg" sendEvent="_iTy7MFqPEeWPE907oEzkyg"/>
+    <message xmi:type="uml:Message" xmi:id="_k8VqwFqPEeWPE907oEzkyg" name="9. getOneDayForecast(zip)" receiveEvent="_k8W44VqPEeWPE907oEzkyg" sendEvent="_k8W44FqPEeWPE907oEzkyg"/>
+    <message xmi:type="uml:Message" xmi:id="_mTMwAFqPEeWPE907oEzkyg" name="10. return()" messageSort="reply" receiveEvent="_mTOlMFqPEeWPE907oEzkyg" sendEvent="_mTN-IFqPEeWPE907oEzkyg"/>
+    <message xmi:type="uml:Message" xmi:id="_rQqvkFqPEeWPE907oEzkyg" name="11. return()" messageSort="reply" receiveEvent="_rQrWoFqPEeWPE907oEzkyg" sendEvent="_mTOlMFqPEeWPE907oEzkyg"/>
+    <message xmi:type="uml:Message" xmi:id="_y9qQcFqPEeWPE907oEzkyg" name="12. createW3Adapter(zip)" messageSort="asynchCall" receiveEvent="_y9rekFqPEeWPE907oEzkyg" sendEvent="_y9q3gFqPEeWPE907oEzkyg"/>
+    <message xmi:type="uml:Message" xmi:id="_2BGzUFqPEeWPE907oEzkyg" name="13. getOneDayForecast(zip)" receiveEvent="_2BIBcVqPEeWPE907oEzkyg" sendEvent="_2BIBcFqPEeWPE907oEzkyg"/>
+    <message xmi:type="uml:Message" xmi:id="_90hFQFqPEeWPE907oEzkyg" name="14. return()" messageSort="reply" receiveEvent="_90i6cFqPEeWPE907oEzkyg" sendEvent="_90iTYFqPEeWPE907oEzkyg"/>
+    <message xmi:type="uml:Message" xmi:id="_-u5C0FqPEeWPE907oEzkyg" name="15. return()" messageSort="reply" receiveEvent="_-u5p4FqPEeWPE907oEzkyg" sendEvent="_90i6cFqPEeWPE907oEzkyg"/>
+    <message xmi:type="uml:Message" xmi:id="_gkTeEFqQEeWPE907oEzkyg" name="2. oneDayForecast(zip)" receiveEvent="_gkVTQFqQEeWPE907oEzkyg" sendEvent="_gkUsMFqQEeWPE907oEzkyg"/>
+    <message xmi:type="uml:Message" xmi:id="_i0uokFqQEeWPE907oEzkyg" name="3. createWeather(zip)" receiveEvent="_i0v2sFqQEeWPE907oEzkyg" sendEvent="_i0vPoFqQEeWPE907oEzkyg"/>
+    <message xmi:type="uml:Message" xmi:id="_8KhzMFqQEeWPE907oEzkyg" name="16. return()" messageSort="reply" receiveEvent="_8KjoYFqQEeWPE907oEzkyg" sendEvent="_8KjBUFqQEeWPE907oEzkyg"/>
+    <message xmi:type="uml:Message" xmi:id="_9vJAkFqQEeWPE907oEzkyg" name="17. show()" messageSort="reply" receiveEvent="_9vKOsFqQEeWPE907oEzkyg" sendEvent="_9vJnoFqQEeWPE907oEzkyg"/>
+    <message xmi:type="uml:Message" xmi:id="_P9QW0FqREeWPE907oEzkyg" name="5. getOneDayForecast(zip)" receiveEvent="_P9SMAFqREeWPE907oEzkyg" sendEvent="_P9Rk8FqREeWPE907oEzkyg"/>
+    <message xmi:type="uml:Message" xmi:id="_Su3i0FqREeWPE907oEzkyg" name="6. return()" messageSort="reply" receiveEvent="_Su4w8VqREeWPE907oEzkyg" sendEvent="_Su4w8FqREeWPE907oEzkyg"/>
   </packagedElement>
 </uml:Model>

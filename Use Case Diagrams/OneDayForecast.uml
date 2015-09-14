@@ -51,7 +51,7 @@
     <ownedEnd xmi:type="uml:Property" xmi:id="_l3qw-FqXEeWPE907oEzkyg" name="fivedayforecastspecificprovider" type="_l3qJ6VqXEeWPE907oEzkyg" association="_l3qw9VqXEeWPE907oEzkyg"/>
     <ownedEnd xmi:type="uml:Property" xmi:id="_l3qw-VqXEeWPE907oEzkyg" name="user" type="_l3pi0FqXEeWPE907oEzkyg" association="_l3qw9VqXEeWPE907oEzkyg"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:Package" xmi:id="_fB7rYFqbEeWPE907oEzkyg" name="Package1">
+  <packagedElement xmi:type="uml:Package" xmi:id="_fB7rYFqbEeWPE907oEzkyg" name="Weatherology">
     <packagedElement xmi:type="uml:Package" xmi:id="_l7VeEFqZEeWPE907oEzkyg" name="Models"/>
     <packagedElement xmi:type="uml:Package" xmi:id="_kl9mkFqZEeWPE907oEzkyg" name="Forecast">
       <packagedElement xmi:type="uml:Dependency" xmi:id="_B-NS8FqaEeWPE907oEzkyg" client="_kl9mkFqZEeWPE907oEzkyg" supplier="_l7VeEFqZEeWPE907oEzkyg"/>
